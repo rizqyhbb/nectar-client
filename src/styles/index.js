@@ -1,10 +1,18 @@
 import { ButtonStyled } from "./components/button.styled";
 import { WelcomeStyled } from "./pages/Welcome.styled";
 import { GlobalStyles } from "./Global";
-import { ImageStyled } from "./components/image.styled";
 import { InputStyled } from "./components/input.styled";
-import { SigninStyled, FormStyled, PasswordContainerStyled } from "./pages/Signin.styled";
+import { SigninStyled, FormStyled, PasswordContainerStyled, ImageStyled } from "./pages/Signin.styled";
+import { SignupStyled } from "./pages/Signup.styled";
 
 export {
-  ButtonStyled, WelcomeStyled, GlobalStyles, ImageStyled, InputStyled, SigninStyled, FormStyled, PasswordContainerStyled
+  ButtonStyled,
+  WelcomeStyled,
+  GlobalStyles,
+  InputStyled,
+  SigninStyled,
+  FormStyled,
+  PasswordContainerStyled,
+  SignupStyled,
+  ImageStyled
 }
