@@ -20,6 +20,11 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
   }
 
+  h3 {
+    font-weight: bold;
+    font-size: 26px;
+  }
+
   h4 {
     font-weight: bold;
     font-size: 18px;
@@ -28,5 +33,6 @@ export const GlobalStyles = createGlobalStyle`
 
   p {
     font-size: 16px;
+    margin: 8px 0;
 }
 `
