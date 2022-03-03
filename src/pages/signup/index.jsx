@@ -1,8 +1,9 @@
-import { FormStyled, GlobalStyles, PasswordContainerStyled, SignupStyled } from "../../styles"
+import { FormStyled, GlobalStyles, PasswordContainerStyled, SignupStyled, ImageStyled, ImageContainerStyled } from "../../styles"
 import { Input, Button } from "../../components";
 import { BsEyeSlash, BsEye } from 'react-icons/bs';
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const SignupPage = () => {
   const [show, setShow] = useState(false);
@@ -11,9 +12,6 @@ const SignupPage = () => {
     <>
       <SignupStyled>
         <Image src='/icon.png' alt="nectar icon colored" width={47.84} height={55.64} />
-        <br />
-        <br />
-        <br />
         <GlobalStyles />
         <h3>Sign Up</h3>
         <p>Enter your credentials to continue</p>
@@ -35,7 +33,17 @@ const SignupPage = () => {
         <Button>
           Sign Up
         </Button>
+        <p>Or you can <Link href="/signin">Sign in</Link> here</p>
       </SignupStyled>
+      <ImageStyled
+        src="/background1.png"
+        alt="bluered rainbow background"
+        position="fixed"
+        top="0"
+        left="0"
+        width='725.77px'
+        zIndex="-2"
+      />
     </>
   )
 }

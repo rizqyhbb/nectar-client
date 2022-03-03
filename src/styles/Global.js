@@ -47,10 +47,4 @@ export const GlobalStyles = createGlobalStyle`
     margin: 8px 0;
     color: grey;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 `

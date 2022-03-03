@@ -35,7 +35,16 @@ const SigninPage = () => {
           <h4>Continue with Google</h4>
         </Button>
       </SigninStyled>
-      <ImageStyled src="/groceries.png" alt="groceries image" />
+      <ImageStyled
+        src="/groceries.png"
+        alt="groceries image"
+        position="fixed"
+        top="0"
+        left="0"
+        transform="translate(-227px, -184.4px) rotate(218.71deg)"
+        width='927.35px'
+        zIndex="-1"
+      />
     </>
   )
 }
