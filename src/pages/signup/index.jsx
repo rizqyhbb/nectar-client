@@ -5,8 +5,13 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+
+
+
 const SignupPage = () => {
   const [show, setShow] = useState(false);
+
+
 
   return (
     <>
@@ -18,22 +23,24 @@ const SignupPage = () => {
         <br />
         <br />
         <FormStyled onSubmit={() => { }}>
-          <p>Username</p>
-          <Input type='text' onChage={(e) => e.value.target} />
-          <p>Email</p>
-          <Input type='email' onChage={(e) => e.value.target} />
-          <p>Password</p>
-          <PasswordContainerStyled>
-            <Input type={show ? 'text' : 'password'} onChage={(e) => e.value.target} />
-            {show ? <BsEye onClick={() => setShow(false)} /> : <BsEyeSlash onClick={() => setShow(true)} />}
-          </PasswordContainerStyled>
+          <div>
+            <p>Username</p>
+            <Input type='text' onChage={(e) => e.value.target} />
+            <p>Email</p>
+            <Input type='email' onChage={(e) => e.value.target} />
+            <p>Password</p>
+            <PasswordContainerStyled>
+              <Input type={show ? 'text' : 'password'} onChage={(e) => e.value.target} />
+              {show ? <BsEye onClick={() => setShow(false)} /> : <BsEyeSlash onClick={() => setShow(true)} />}
+            </PasswordContainerStyled>
+          </div>
           <p>By continuing you are agre to our Terms of Service and Privacy Policy</p>
         </FormStyled>
         <br />
         <Button>
           Sign Up
         </Button>
-        <p>Or you can <Link href="/signin">Sign in</Link> here</p>
+        <p>Or you can <Link href="/signin">sign in</Link> here</p>
       </SignupStyled>
       <ImageStyled
         src="/background1.png"

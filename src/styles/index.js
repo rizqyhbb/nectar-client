@@ -5,6 +5,9 @@ import { ImageStyled, ImageContainerStyled } from "./components/image.styled";
 import { WelcomeStyled } from "./pages/Welcome.styled";
 import { SigninStyled, FormStyled, PasswordContainerStyled } from "./pages/Signin.styled";
 import { SignupStyled } from "./pages/Signup.styled";
+import { LocationStyledContainer } from "./pages/Home.stylrd";
+import { SearchBarStyled } from "./components/searchbar.styled";
+import { BannerStyled, RadioContainerStyled } from "./components/banner.styled";
 
 export {
   ButtonStyled,
@@ -16,5 +19,9 @@ export {
   PasswordContainerStyled,
   SignupStyled,
   ImageStyled,
-  ImageContainerStyled
+  ImageContainerStyled,
+  LocationStyledContainer,
+  SearchBarStyled,
+  BannerStyled,
+  RadioContainerStyled
 }
