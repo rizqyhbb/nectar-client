@@ -1,4 +1,4 @@
-import { BannerStyled, RadioContainerStyled } from "../../styles"
+import { BannerStyled, RadioContainerStyled, ExclusiveContainerStyled } from "../../styles"
 
 export const Banner = ({ selected }) => {
   return (

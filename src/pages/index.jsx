@@ -1,6 +1,14 @@
 import Image from "next/image"
 import Link from "next/link";
-import { GlobalStyles, LocationStyledContainer, HomeTitleContainer, HomeCardContainer, HomeContainerStyled, HomeCardLastContainer } from "../styles"
+import {
+  GlobalStyles,
+  LocationStyledContainer,
+  HomeTitleContainer,
+  HomeCardContainer,
+  HomeContainerStyled,
+  HomeCardLastContainer,
+  HomeLogoContainer
+} from "../styles"
 import { BsFillGeoAltFill } from 'react-icons/bs';
 import { Banner, SearchBar, Card, BottomNav } from "../components";
 
@@ -10,7 +18,9 @@ export default function Home() {
   return (
     <HomeContainerStyled>
       <GlobalStyles />
-      <Image src="/icon.png" alt="nectar logo" width={26.48} height={30.8} />
+      <HomeLogoContainer>
+        <Image src="/icon.png" alt="nectar logo" width={26.48} height={30.8} />
+      </HomeLogoContainer>
       <LocationStyledContainer>
         <BsFillGeoAltFill /><p>Location, Detail Location</p>
       </LocationStyledContainer>

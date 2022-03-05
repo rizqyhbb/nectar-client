@@ -15,27 +15,37 @@ export const BottomNavStyled = styled.nav`
   bottom: 0;
   background-color: white;
   flex-basis: 60px;
+  
+  a {
+    text-decoration: none ;
+  }
+  
 `
 
-export const BottomNavInputStyled = styled.input`
-   display: none;
-
-   &:checked + label{
-     p {
-      color: rgba(83,177,117,1);   
-     }
-    color: rgba(83,177,117,1);
-   }
-`
-
-export const BottomNavLabelStyled = styled.label`
-  flex-basis: 70px;
+export const BottomNavInputContainer = styled.div`
   text-align: center;
-  p {
-    margin:0 ;
-    }
+  flex-basis: 70px;
+  
+  input {
+    display: none;
 
-  svg {
-    font-size: 24px;
+    &:checked + label{
+      color: rgba(83,177,117,1);
+      
+      p {
+        color: rgba(83,177,117,1);   
+      }
+    }
+  }
+
+  label {
+    
+    p {
+      margin:0 ;
+      }
+
+    svg {
+      font-size: 24px;
+    }
   }
 `

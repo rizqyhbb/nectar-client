@@ -5,11 +5,11 @@ import { ImageStyled, ImageContainerStyled } from "./components/image.styled";
 import { SearchBarStyled } from "./components/searchbar.styled";
 import { BannerStyled, RadioContainerStyled } from "./components/banner.styled";
 import { CardStyled, FigureStyled, PriceStyled } from "./components/card.styled";
-import { BottomNavStyled, BottomNavInputStyled, BottomNavLabelStyled } from "./components/bottomNav.styled";
+import { BottomNavStyled, BottomNavInputContainer } from "./components/bottomNav.styled";
 import { WelcomeStyled } from "./pages/Welcome.styled";
 import { SigninStyled, FormStyled, PasswordContainerStyled } from "./pages/Signin.styled";
 import { SignupStyled } from "./pages/Signup.styled";
-import { LocationStyledContainer, HomeTitleContainer, HomeCardContainer, HomeContainerStyled, HomeCardLastContainer } from "./pages/Home.styled";
+import { LocationStyledContainer, HomeTitleContainer, HomeCardContainer, HomeContainerStyled, HomeCardLastContainer, HomeLogoContainer } from "./pages/Home.styled";
 
 export {
   ButtonStyled,
@@ -33,7 +33,7 @@ export {
   PriceStyled,
   HomeContainerStyled,
   BottomNavStyled,
-  BottomNavInputStyled,
   HomeCardLastContainer,
-  BottomNavLabelStyled
+  HomeLogoContainer,
+  BottomNavInputContainer
 }

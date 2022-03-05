@@ -5,9 +5,6 @@ export const HomeContainerStyled = styled.div`
   flex-direction: column;
   align-items: center;
   overflow: auto;
-  Image {
-    margin-top: 50px;
-  } 
 `
 
 export const LocationStyledContainer = styled.div`
@@ -45,4 +42,8 @@ export const HomeCardContainer = styled.div`
 `
 export const HomeCardLastContainer = styled(HomeCardContainer)`
   margin-bottom: 108px;
+`
+
+export const HomeLogoContainer = styled.div`
+  margin-top: 56px;
 `
