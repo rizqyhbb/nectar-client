@@ -2,7 +2,7 @@ import Image from "next/image"
 import { CardStyled, FigureStyled, PriceStyled } from "../../styles"
 import { BsPlusLg } from 'react-icons/bs'
 
-export const Card = ({ title, description, src, width, height, price }) => {
+export const Card = ({ title, description, src, width, height, price, onClick }) => {
   return (
     <CardStyled>
       <FigureStyled>
@@ -14,7 +14,7 @@ export const Card = ({ title, description, src, width, height, price }) => {
       </p>
       <PriceStyled>
         <h4>{price}</h4>
-        <button>
+        <button onClick={onClick}>
           <BsPlusLg />
         </button>
       </PriceStyled>

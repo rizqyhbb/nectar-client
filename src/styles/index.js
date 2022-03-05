@@ -8,7 +8,7 @@ import { CardStyled, FigureStyled, PriceStyled } from "./components/card.styled"
 import { WelcomeStyled } from "./pages/Welcome.styled";
 import { SigninStyled, FormStyled, PasswordContainerStyled } from "./pages/Signin.styled";
 import { SignupStyled } from "./pages/Signup.styled";
-import { LocationStyledContainer, ExclusiveContainerStyled, ExclusiveTitle, ExclusiveCard } from "./pages/Home.styled";
+import { LocationStyledContainer, ExclusiveTitle, ExclusiveCard, HomeContainerStyled } from "./pages/Home.styled";
 
 export {
   ButtonStyled,
@@ -25,10 +25,10 @@ export {
   SearchBarStyled,
   BannerStyled,
   RadioContainerStyled,
-  ExclusiveContainerStyled,
   ExclusiveTitle,
   CardStyled,
   ExclusiveCard,
   FigureStyled,
-  PriceStyled
+  PriceStyled,
+  HomeContainerStyled
 }

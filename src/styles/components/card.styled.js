@@ -6,7 +6,7 @@ export const CardStyled = styled.div`
     width: 173px;
     height: 248px;
     flex-shrink: 0;
-    margin-right: 16px ;
+    margin-left: 16px ;
     
     p{
       font-weight:bold ;
@@ -30,6 +30,10 @@ export const CardStyled = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
+
+      &:active {
+        background-color: rgba(65, 143, 93, 1);
+      }
     }
     
 `

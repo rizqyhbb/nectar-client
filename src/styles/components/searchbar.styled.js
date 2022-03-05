@@ -17,6 +17,6 @@ export const SearchBarStyled = styled.div`
     padding: 0px 16px 0px 44px;
     height: 51px ;
     font-size: 16px;
-    width: 90%;
+    width: 100%;
   }
 `

@@ -5,6 +5,7 @@ export const BannerStyled = styled.div`
   height: 115px;
   border-radius: 8px;
   background-color: black ;
+  margin: 26px 0;
 `
 
 export const RadioContainerStyled = styled.div`

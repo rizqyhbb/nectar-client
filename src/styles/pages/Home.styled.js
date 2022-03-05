@@ -1,8 +1,19 @@
 import styled from "styled-components";
 
+export const HomeContainerStyled = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  Image {
+    margin-top: 50px;
+  } 
+`
+
 export const LocationStyledContainer = styled.div`
   display: flex;
   align-items: center;
+  margin: 16px 0;
 
   svg {
     margin-right: 8px ;
@@ -12,10 +23,6 @@ export const LocationStyledContainer = styled.div`
   p {
     font-weight: bold;
   }
-`
-
-export const ExclusiveContainerStyled = styled.div`
-  display: flex;
 `
 
 export const ExclusiveTitle = styled.div`
@@ -28,4 +35,6 @@ export const ExclusiveTitle = styled.div`
 export const ExclusiveCard = styled.div`
   display: flex;
   overflow: auto;
+  margin: 16px 0 ;
+  width: 100%;
 `
