@@ -3,11 +3,12 @@ import styled from "styled-components";
 export const SearchBarStyled = styled.div`
   display: flex;
   align-items: center;
+  width:90% ;
 
   svg {
-    position: fixed;
-    margin: 0px 16px;
+    position: absolute;
     font-size: 20px;
+    margin: 0 16px;
   }
 
   input {
@@ -17,6 +18,6 @@ export const SearchBarStyled = styled.div`
     padding: 0px 16px 0px 44px;
     height: 51px ;
     font-size: 16px;
-    width: 100%;
+    width: 100%
   }
 `
