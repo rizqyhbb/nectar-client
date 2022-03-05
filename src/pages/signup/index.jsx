@@ -18,7 +18,7 @@ const SignupPage = () => {
       <SignupStyled>
         <Image src='/icon.png' alt="nectar icon colored" width={47.84} height={55.64} />
         <GlobalStyles />
-        <h3>Sign Up</h3>
+        <h2>Sign Up</h2>
         <p>Enter your credentials to continue</p>
         <br />
         <br />

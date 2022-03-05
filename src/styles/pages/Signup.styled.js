@@ -13,7 +13,7 @@ export const SignupStyled = styled.div`
     width: 90%
   }
   
-  h3 {
+  h2 {
     width: 90%;
     margin-top: 100px;
   }

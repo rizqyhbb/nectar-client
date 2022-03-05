@@ -8,7 +8,7 @@ export const SigninStyled = styled.div`
     align-items: center;
     padding-bottom: 90px;
 
-    h3 {
+    h2 {
       width: 90%;
     }
 

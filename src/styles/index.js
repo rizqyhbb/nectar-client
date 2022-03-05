@@ -2,12 +2,13 @@ import { GlobalStyles } from "./Global";
 import { ButtonStyled } from "./components/button.styled";
 import { InputStyled } from "./components/input.styled";
 import { ImageStyled, ImageContainerStyled } from "./components/image.styled";
+import { SearchBarStyled } from "./components/searchbar.styled";
+import { BannerStyled, RadioContainerStyled } from "./components/banner.styled";
+import { CardStyled, FigureStyled, PriceStyled } from "./components/card.styled";
 import { WelcomeStyled } from "./pages/Welcome.styled";
 import { SigninStyled, FormStyled, PasswordContainerStyled } from "./pages/Signin.styled";
 import { SignupStyled } from "./pages/Signup.styled";
-import { LocationStyledContainer } from "./pages/Home.stylrd";
-import { SearchBarStyled } from "./components/searchbar.styled";
-import { BannerStyled, RadioContainerStyled } from "./components/banner.styled";
+import { LocationStyledContainer, ExclusiveContainerStyled, ExclusiveTitle, ExclusiveCard } from "./pages/Home.styled";
 
 export {
   ButtonStyled,
@@ -23,5 +24,11 @@ export {
   LocationStyledContainer,
   SearchBarStyled,
   BannerStyled,
-  RadioContainerStyled
+  RadioContainerStyled,
+  ExclusiveContainerStyled,
+  ExclusiveTitle,
+  CardStyled,
+  ExclusiveCard,
+  FigureStyled,
+  PriceStyled
 }

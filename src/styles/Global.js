@@ -30,9 +30,15 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
   }
 
-  h3 {
+  h2 {
     font-weight: bold;
     font-size: 26px;
+    margin: 0;
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 24px;
     margin: 0;
   }
 

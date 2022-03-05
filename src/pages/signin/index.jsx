@@ -13,7 +13,7 @@ const SigninPage = () => {
     <>
       <SigninStyled>
         <GlobalStyles />
-        <h3>Get your groceries<br />with nectar</h3>
+        <h2>Get your groceries<br />with nectar</h2>
         <br />
         <FormStyled onSubmit={() => { }}>
           <p>Email</p>

@@ -1,7 +1,8 @@
 import Image from "next/image"
-import { GlobalStyles, LocationStyledContainer } from "../styles"
+import Link from "next/link";
+import { ExclusiveContainerStyled, GlobalStyles, LocationStyledContainer, ExclusiveTitle, ExclusiveCard } from "../styles"
 import { BsFillGeoAltFill } from 'react-icons/bs';
-import { Banner, SearchBar } from "../components";
+import { Banner, SearchBar, Card } from "../components";
 
 Image
 
@@ -15,6 +16,17 @@ export default function Home() {
       </LocationStyledContainer>
       < SearchBar placeholder="Search Store" />
       <Banner />
+      <ExclusiveContainerStyled>
+        <ExclusiveTitle>
+          <h3>{`Exclusive Offer`}</h3>
+          <Link href="#" >See all</Link>
+        </ExclusiveTitle>
+      </ExclusiveContainerStyled>
+      <ExclusiveCard>
+        <Card title="Organic Bananas" description="7pcs, Priceg" src="/banana.png" width={99.89} height={79.43} price="$4.99" />
+        <Card title="Organic Bananas" description="7pcs, Priceg" src="/banana.png" width={99.89} height={79.43} price="$4.99" />
+        <Card title="Organic Bananas" description="7pcs, Priceg" src="/banana.png" width={99.89} height={79.43} price="$4.99" />
+      </ExclusiveCard>
     </>
   )
 }
